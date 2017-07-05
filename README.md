@@ -6,7 +6,7 @@ Progress so far
 
 1. set up rails5, selected ruby 2.4.0. with rbenv and git installed a new repo. 
 
-2. 
+2. Added the site_pages branch and added the home room page. 
 
 3.
 
@@ -39,4 +39,5 @@ Progress so far
 
 17.
 
+This is just for progression - delete at end after adding to file. 
 
