@@ -10,7 +10,9 @@ body {
     margin:auto;
 }
 
-
+ .navbar-form {
+    padding: 0px !important;
+    }
 
 .alert-notice
 {
@@ -19,22 +21,14 @@ body {
     color: #eceef1 !important;
 }
 
-header {
-    position: relative;
-}
 
-header::after {
-    content: '';
-    clear: both;
-    display: block;
-    
-}
 
 .logo
 
 {
-    float: left;
-    line-height: 20px;
+    float: left !important;
+    
+
 }
 
 .container-fluid {
@@ -121,19 +115,11 @@ header::after {
     transform: rotate (45deg);
 }
 
-@media (min-width: 570px) and (max-width: 690px) {
-     a {
-         padding: 10px !important;
-         letter-spacing: 0.5px !important;
-     }
-     .navbar-right {
-    float: right !important;
-}
-}
 
 
-@media (min-width: 569px){
-#change the pos of the logo and form buttons here somehow
+
+@media (min-width: 711px){
+
 
     .menu-toggle {
         display: none;
@@ -165,18 +151,17 @@ header::after {
 
     .logo {
 
+
+    
     }
 
     
-    .navbar-right {
+    .navbar-form {
     float: right !important;
 }
+  
 
-   .logo {
-   
-
-    
-   }
+  
 }
 
 .bluecolor {

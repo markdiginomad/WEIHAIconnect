@@ -8,11 +8,11 @@ Progress so far
 
 2. Added the site_pages branch and added the home room page. 
 
-3.
+3. Added design helpers branch, where all the layout libraries are held to help with the design of the website; bootstrap, font-awesome, 
 
-4.
+4. Added the navbar branch. Changed the layout of the nav bar. Still need to repostion the nav and form buttons in the small screen sizes and add the toggle field. 
 
-5.
+5. Add jquery gem and mobile phone responsive toggle - change to slide toggle plugin later. 
 
 6.
 
