@@ -3,14 +3,14 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-
-
 body {
     text-align: center;
     background: #C9C9C9 !important;
     color: black;
     margin:auto;
 }
+
+
 
 .alert-notice
 {
@@ -27,14 +27,6 @@ header::after {
     content: '';
     clear: both;
     display: block;
-    
-}
-
-.img {
-
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-right: 10px;
     
 }
 
@@ -134,11 +126,15 @@ header::after {
          padding: 10px !important;
          letter-spacing: 0.5px !important;
      }
+     .navbar-right {
+    float: right !important;
+}
 }
 
 
-
 @media (min-width: 569px){
+#change the pos of the logo and form buttons here somehow
+
     .menu-toggle {
         display: none;
             position: inherit;
@@ -161,24 +157,30 @@ header::after {
  
     }
     
-    .navbar-form {
-        border: 0 !important;
-        
-    }
     
     .img 
     {
-       width: 200px; 
+       
     }
 
+    .logo {
+
+    }
+
+    
+    .navbar-right {
+    float: right !important;
+}
+
+   .logo {
+   
+
+    
+   }
 }
 
 .bluecolor {
     background-color: #317ED5 !important;
-}
-
-.navbar-form {
-    padding-top: 24px !important;
 }
 
 .navbar-brand {
